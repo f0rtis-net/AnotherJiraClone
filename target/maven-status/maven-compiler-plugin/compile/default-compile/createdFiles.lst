@@ -1,0 +1,14 @@
+rc/test/repository/TaskMarkerRepository.class
+rc/test/service/TaskMarkerService.class
+rc/test/service/EpycService.class
+rc/test/repository/TaskRepository.class
+rc/test/service/TaskService.class
+rc/test/model/entity/TaskColumn.class
+rc/test/model/entity/Epyc.class
+rc/test/repository/TaskColumnRepository.class
+rc/test/controller/TaskController.class
+rc/test/service/TaskColumnService.class
+rc/test/model/entity/TaskMarker.class
+rc/test/model/entity/Task.class
+rc/test/repository/EpycRepository.class
+rc/test/WebAppInitializer.class

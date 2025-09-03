@@ -1,4 +1,4 @@
-package rc.test.model.entity;
+package rc.test.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -12,7 +12,6 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "task_marker")
-@NoArgsConstructor
 public class TaskMarker {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

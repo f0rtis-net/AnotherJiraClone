@@ -5,6 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 
-@Repository
+/*@Repository
 public interface TaskColumnRepository extends JpaRepository<TaskColumnRepository, UUID> {
-}
+}*/

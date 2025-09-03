@@ -1,11 +1,15 @@
 package rc.test.service;
 
-import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import rc.test.repository.TaskColumnRepository;
+
 
 @Service
-@AllArgsConstructor
 public class TaskColumnService {
-    private final TaskColumnRepository taskColumnRepository;
+    //private final TaskColumnRepository taskColumnRepository;
+
+   /* @Autowired
+    public TaskColumnService(TaskColumnRepository taskColumnRepository) {
+        this.taskColumnRepository = taskColumnRepository;
+    }*/
 }

@@ -2,7 +2,7 @@ package rc.test.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import rc.test.model.entity.Epyc;
+import rc.test.model.Epyc;
 
 import java.util.UUID;
 

@@ -1,5 +1,4 @@
-package rc.test.model.entity;
-
+package rc.test.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -11,29 +10,24 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
 @Entity
-@Table(name = "epyc")
-public class Epyc {
+@Table(name = "task_column")
+public class TaskColumn {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(nullable = false)
     private UUID id;
 
-    @Column(nullable = false)
-    private String name;
+    @Column(name = "column_name", nullable = false)
+    private String columnName;
 
     private String description;
 
-    @Column(name = "created_at", nullable = false)
-    private Date createdAt;
-
-    @Column(name = "modified_at")
-    private Date modifiedAt;
-
-    @OneToMany(mappedBy = "epyc", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "task_column", fetch = FetchType.LAZY)
     private List<Task> tasks = new ArrayList<>();
+
+    @OneToMany(mappedBy = "task_column", fetch = FetchType.LAZY)
+    private List<Epyc> epycs = new ArrayList<>();
 }

@@ -1,0 +1,14 @@
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/WebAppInitializer.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/controller/TaskController.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/model/entity/Epyc.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/model/entity/Task.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/model/entity/TaskColumn.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/model/entity/TaskMarker.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/repository/EpycRepository.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/repository/TaskColumnRepository.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/repository/TaskMarkerRepository.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/repository/TaskRepository.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/service/EpycService.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/service/TaskColumnService.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/service/TaskMarkerService.java
+/Users/ivankaravaev/Documents/gmfy_gitlab/AnotherCanban/src/main/java/rc/test/service/TaskService.java
